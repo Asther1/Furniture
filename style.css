@@ -1,15 +1,13 @@
 
-
-
-}
 body{
     /* 高度 */
     height: 100%;
     /* 背景圖片 */
-    background-image: url("https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
+    background-image: url("https://images.unsplash.com/photo-1442975631115-c4f7b05b8a2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60");
     background-repeat:no-repeat;
     /* 背景大小 */
-    background-size: 120%;
+    background-size: 140%;
+    /* 背景致中 */
     background-position:center;
 }
 
@@ -21,11 +19,64 @@ body{
     font-family: 微軟黑正體;
     /* 字體顏色 */
     color: #ffffff;
+    
 }
 
 
 /* 盒子區塊 */
 #box {
     /* background-color: rgba(225, 0, 0, 0.3); */
-    height: 500px;
+    height: 500px; 
 }
+
+/* 導覽列區塊*/
+#LOGO{
+        font-size: 100px;
+        
+}
+NAV A{
+    border-bOTTOm:5px solid #ffffff;
+     /*內距  */
+     padding: 10px 0;
+     font-size: 50px;
+     margin-right: 30px;
+}
+
+nav a:hover{
+    background-color:  rgba(47,81,112,0.4);
+}
+
+a{
+    /* 文字裝飾 */
+    text-decoration: none;
+}
+
+/* nav裡面的div */
+nav div{
+         float: right;
+}
+
+h1{
+    font-size: 100px;
+}
+p{
+    font-size: 60px;
+}
+
+
+
+#content{
+            width:50%;
+}
+
+#content a{
+padding: 10px 15px;
+border: 0.5px solid #ffffff;
+background-color: rgba(47,81,112,0.4);
+}
+
+#content a:hover{
+
+    background-color: rgba(47,81,112,0);
+    }
+
